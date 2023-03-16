@@ -34,4 +34,15 @@ public class LoginTest extends BaseTest {
 		String verifyTitleOfBuild = loginPage.getBuildTitle();
 		Assert.assertEquals(verifyTitleOfBuild, "OrangeHRM");
 	}
+	@Test(priority = -2, groups={"smoke","regression"})
+	public void verifyBuildTitleNamee() {
+		String verifyTitleOfBuild = loginPage.getBuildTitle();
+		Assert.assertEquals(verifyTitleOfBuild, "OrangeHRM");
+	}
+	@Test(priority = -3, groups={"smoke","regression"})
+	public void verifyBuildTitleNameewww() {
+		String verifyTitleOfBuild = loginPage.getBuildTitle();
+		Assert.assertEquals(verifyTitleOfBuild, "OrangeHRM");
+	}
+	
 }
